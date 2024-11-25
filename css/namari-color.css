@@ -119,6 +119,10 @@ a:hover, #header.nav-solid nav a:hover {
     background-color:#f2f3e350;
 }
 
+.secondary-color3 {
+    background-color:#f7f7f7;
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
@@ -128,7 +132,12 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/qq_new.png") no-repeat center top;
+    background-size:cover;
+}
+
+#banner1 {
+    background: url("../images/banner-images/xx.png") no-repeat center top;
     background-size:cover;
 }
 
@@ -356,6 +365,6 @@ h6 {
 /* styles.css or within a <style> tag */
 .positioned-text {
     position: relative; /* or absolute, depending on your layout */
-    top: 20px; /* Move the text down by 20 pixels */
-    left: 10px; /* Move the text left by 10 pixels */
+    top: px; /* Move the text down by 20 pixels */
+    left: 100px; /* Move the text left by 10 pixels */
 }
